@@ -1,4 +1,4 @@
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
@@ -170,6 +170,7 @@ function App() {
       <section className="projects" id="projects">
         Projects Section
       </section>
+      <hr />
 
 
       {/* CONTACT SECTION */}
@@ -185,7 +186,7 @@ function App() {
               <div className="row">
                 <div className="info">
                   <div className="head">Name</div>
-                  <div className="sub-title">Dhiraj Narsinghani</div>
+                  <div className="sub-title">#ME</div>
                 </div>
               </div>
               <div className="row">
