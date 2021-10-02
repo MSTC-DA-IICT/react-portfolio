@@ -98,7 +98,7 @@
     top: 80px;
     right: 0;
     
-    display: none;
+    display: flex;
   }
   .toggle-btn {
     display: flex;
