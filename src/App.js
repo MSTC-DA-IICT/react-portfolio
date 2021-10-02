@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 import './css/App.css';
 import './css/Navbar.css'
@@ -10,29 +11,7 @@ function App() {
     <>
     
       {/* NAVBAR */}
-      <nav className="navbar" >
-        <div className="navmain" id="navmain">
-        
-          <div className="logo"><span>#ME</span></div>
-          <a href="#" className="toggle-btn"> {/*onclick method pending*/}
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </a>
-          <div>
-          <div id="navbar-links">
-          <ul className="menu" id="toggle-menu">
-            <li><a href="#home" className="active">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-          </div>
-          </div>
-        </div>
-      </nav>
+      
 
       {/* MAIN */}
       <section className="main" id="main">
@@ -286,3 +265,31 @@ function App() {
 }
 
 export default App;
+=======
+import './css/App.css';
+import Navbar from './navbar';
+import Main from './main';
+import AboutMe from './aboutMe';
+import Services from './services';
+import Skills from './skills';
+import Projects from './projects';
+import Contact from './contact';
+import Footer from './footer';
+
+function App() {
+  return (
+    <>
+      <Navbar/>
+      <Main/>
+      <AboutMe/>
+      <Services/>
+      <Skills/>
+      <Projects/>
+      <Contact/>
+      <Footer/>
+    </>
+  );
+}
+
+export default App;
+>>>>>>> upstream/main
