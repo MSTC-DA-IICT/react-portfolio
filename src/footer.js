@@ -4,9 +4,7 @@ function Footer(){
         {/* FOOTER */}
             <footer>
                 <span>
-                Created By <a href="#">Developer</a> |
-                Copyright &copy; <span id="year">2021</span> |
-                All rights reserved
+                Template taken from <a href="https://github.com/MSTC-DA-IICT/react-portfolio">MSTC Github</a>
                 </span>
             </footer>
         </>
