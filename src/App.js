@@ -1,4 +1,5 @@
 import './css/App.css';
+import './css/Services.css';
 
 function App() {
   return (
@@ -59,40 +60,38 @@ function App() {
 
 
       {/* SERVICES SECTION */}
-      <section className="services" id="services">
-        <div className="container">
-          <h2 className="title">My Services</h2>
-          <div className="services-content">
-            <div className="card">
-              <div className="box">
-                <i className="fas fa-paint-brush"></i>
-                <div className="card-title">Web Design / UI</div>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                  ullam quidem
-                  expedita, suscipit sit accusantium? </p>
-              </div>
+    
+      <section class="services" id="services">
+      <div class="max-width">
+        <h2 class="title">My services</h2>
+        <div class="serv-content">
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-paint-brush"></i>
+                    <div class="text">Web Design/UI</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
             </div>
-            <div className="card">
-              <div className="box">
-                <i className="fa fa-database"></i>
-                <div className="card-title">Backend with Server</div>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                  ullam quidem
-                  expedita, suscipit sit accusantium? </p>
-              </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-server"></i>
+                    <div class="text">Backend with Server</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
             </div>
-            <div className="card">
-              <div className="box">
-                <i className="far fa-file-code"></i>
-                <div className="card-title">Complete Web App</div>
-                <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                  ullam quidem
-                  expedita, suscipit sit accusantium? </p>
-              </div>
+            <div class="card">
+                <div class="box">
+                    <i class="fas fa-code"></i>
+                    <div class="text">Complete Web App</div>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+                </div>
             </div>
-          </div>
+           </div>
         </div>
-      </section>
+    
+</section>
+
+
       <hr></hr>
 
 
