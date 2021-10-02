@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@400;600&display=swap');
+
+
+
+.navmain
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-bottom: 1px solid black;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 2px 10px black;
+}
+
+/* Logo */
+.logo
+{
+  font-size: larger;
+  color: white;
+  margin: 0 0 0 5%;
+  width:auto;
+  padding: 0.06em 1.3em;
+  background-color: crimson;
+  border-radius: 50px;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  top: 13px;
+  left: 2em;
+
+}
+
+/* Links */
+
+#toggle-menu
+{
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#toggle-menu li a
+{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 800;
+  padding: 0.2rem 1rem;
+  border-radius: 50px;
+}
+
+
+#toggle-menu li a:hover{
+  transition: 0.5s all ease;
+  color: white;
+  background-color: crimson;
+
+}
+
+.toggle-btn
+{
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-btn .bar
+{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 30px;
+}
+
+@media (max-width:900px)
+{
+  #toggle-menu
+  {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    
+    display: none;
+  }
+  .toggle-btn {
+    display: flex;
+  }
+  #toggle-menu li
+  {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    border-radius: none;
+  }
+  .active
+  {
+    background-color: none;
+  }
+
+
+  
+
+}
