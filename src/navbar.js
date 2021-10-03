@@ -5,15 +5,17 @@ function Navbar(){
         {/* NAVBAR */}
         <nav className="navbar" >
         <div className="navmain" id="navmain">
-        
-          <div className="logo"><span>#ME</span></div>
+          <div className="logo">
+          <i className="top-left"></i>
+          <span>MSTC</span>
+          <i className="top-right"></i></div>
+
           <a href="#" className="toggle-btn"> {/*onclick method pending*/}
             <span className="bar"></span>
             <span className="bar"></span>
             <span className="bar"></span>
           </a>
-          <div>
-          <div id="navbar-links">
+          <div id="shadow-border">
           <ul className="menu" id="toggle-menu">
             <li><a href="#home" className="active">Home</a></li>
             <li><a href="#about">About</a></li>
@@ -22,7 +24,6 @@ function Navbar(){
             <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contact</a></li>
           </ul>
-          </div>
           </div>
         </div>
       </nav>
