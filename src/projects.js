@@ -5,7 +5,7 @@ function Projects(){
         <>
         {/* PROJECTS SECTION */}
             <section className="projects" id="projects">
-                <h1>Projects Section</h1>
+                <h1>Projects</h1>
                 <div className="projects-tiles">
                     <div className="card">
                         <img src="https://cdn.dribbble.com/users/7265710/screenshots/16575011/media/0ad6122ebdac86b726a17bad2606f06d.jpg?compress=1&resize=1600x1200"/>
