@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+:root {
+  --font: "Montserrat Alternates", sans-serif;
+  --crimson: #dc143c;
+}
+footer {
+  width: 100%;
+  bottom: 0;
+  background: var(--crimson);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  font-family: var(--font);
+}
+footer .text {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px auto;
+}
+footer input[type="email"] {
+  width: calc(100vw - 40vw);
+  font-size: 26px;
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
+  color: var(--crimson);
+  outline: none;
+  border: 1px solid #fff;
+}
+footer input[type="submit"] {
+  outline: none;
+  border: 1px solid #fff;
+  border-radius: 0 30px 30px 0;
+  padding: 10px;
+  color: #fff;
+  font-size: 26px;
+  font-family: var(--font);
+  background: var(--crimson);
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+footer input:hover[type="submit"] {
+  background: #580818;
+  color: #fff;
+  border: 1px solid transparent;
+  transition: all 0.3s ease-in-out;
+}
+footer .footer-list {
+  margin: 25px auto;
+  display: flex;
+  list-style-type: none;
+}
+
+footer .footer-list li a {
+  font-size: 20px;
+  text-decoration: none;
+  padding: 20px;
+  font-weight: bold;
+  color: #fff;
+  transition: all 0.4s ease;
+  line-height: 30px;
+}
+
+footer .footer-list li a:hover {
+  border-bottom: 4px solid #580818;
+  color: #580818;
+  transition: all 0.4s ease;
+}
+
+footer .social-media-container {
+  margin: 5px auto;
+}
+footer .social-media-container i {
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  transition: all 0.4s ease;
+  text-shadow: 0px 0px 20px #580818;
+}
+footer .social-media-container i:hover {
+  color: #580818;
+}
+
+span {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+  font-family: var(--font);
+}
+span a {
+  margin-left: 5px;
+}
+/* MEDIA QUERIES */
+@media (max-width: 810px) {
+  footer .text,
+  footer input[type="email"],
+  footer input[type="submit"] {
+    font-size: 20px;
+  }
+  footer .footer-list li a {
+    padding: 15px;
+    font-size: 15px;
+  }
+  footer .social-media-container i {
+    padding: 10px;
+  }
+}
+@media (max-width: 610px) {
+  .text,
+  footer input[type="email"],
+  footer input[type="submit"] {
+    font-size: 14px;
+  }
+  footer .footer-list li a {
+    padding: 10px;
+    font-size: 12px;
+  }
+  footer .social-media-container i {
+    font-size: 15px;
+  }
+}
+@media (max-width: 470px) {
+  footer .text {
+    font-size: 12px;
+  }
+  footer .footer-list li a {
+    padding: 5px;
+  }
+}
+@media (max-width: 330px) {
+  .text {
+    font-size: 10px;
+  }
+}
