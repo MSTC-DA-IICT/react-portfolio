@@ -1,5 +1,4 @@
 
-
 import './css/App.css';
 import Navbar from './navbar';
 import Main from './main';
@@ -13,17 +12,16 @@ import Footer from './footer';
 function App() {
   return (
     <>
-      <Navbar/>
-      <Main/>
-      <AboutMe/>
-      <Services/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
+      <Navbar />
+      <Main />
+      <AboutMe />
+      <Services />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
     </>
   );
 }
 
 export default App;
-
