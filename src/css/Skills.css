@@ -1,0 +1,14 @@
+.skills {
+    background: #111;
+    font-family: "Poppins", sans-serif;
+}
+
+.skill-container {
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 40px 20%;
+}
+

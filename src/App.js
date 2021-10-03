@@ -1,6 +1,16 @@
-
 import './css/App.css';
 import './css/Services.css';
+import './css/About.css';
+import './css/Skills.css';
+
+import Navbar from './navbar';
+import Main from './main';
+import AboutMe from './aboutMe';
+import Services from './services';
+import Skills from './skills';
+import Projects from './projects';
+import Contact from './contact';
+import Footer from './footer';
 
 function App() {
   return (
@@ -41,14 +51,15 @@ function App() {
             About Me
           </h2>
           <div className="about-content">
-            <div className="column left">
-              <img src="#" alt="avatar" />
+            <div className="column-left">
+              <img className="about-image" src="#" alt="avatar" />
             </div>
-            <div className="column right">
-              <div className="text">
+            <div className="column-right">
+              <h3>
                 I am #ME and I am a <span>Full Stack Web Developer</span>.
-              </div>
-              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam nisi, placeat quibusdam veritatis
+              </h3>
+
+              <p className="details">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas aperiam nisi, placeat quibusdam veritatis
                 mollitia minima repellendus architecto quam quisquam temporibus harum expedita maiores necessitatibus,
                 facere tempore eligendi unde soluta explicabo? Repellat quam dolores illo commodi harum at, excepturi
                 facilis delectus labore beatae eaque nostrum, nesciunt incidunt pariatur cum doloribus.</p>
@@ -61,36 +72,36 @@ function App() {
 
 
       {/* SERVICES SECTION */}
-    
+
       <section class="services" id="services">
-      <div class="max-width">
-        <h2 class="title">My services</h2>
-        <div class="serv-content">
+        <div class="max-width">
+          <h2 class="title">My services</h2>
+          <div class="serv-content">
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-paint-brush"></i>
-                    <div class="text">Web Design/UI</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <div class="text">Web Design/UI</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-server"></i>
-                    <div class="text">Backend with Server</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-server"></i>
+                <div class="text">Backend with Server</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-code"></i>
-                    <div class="text">Complete Web App</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Complete Web App</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
-           </div>
+          </div>
         </div>
-    
-</section>
+
+      </section>
 
 
       <hr></hr>
@@ -98,11 +109,11 @@ function App() {
 
       {/* SKILLS SECTION */}
       <section className="skills" id="skills">
-        <div className="container">
+        <div className="skill-container">
           <h2 className="title">My Skills</h2>
           <div className="skills-content">
             <div className="column left">
-              <div className="text">My Creative Skills</div>
+              <h3>My Creative Skills</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae optio placeat a officia nemo veniam officiis
                 repellat odit iusto, dicta facilis quaerat aliquam ut sunt impedit labore atque tempora harum maiores quidem
                 rem deserunt. Voluptatem, saepe rem. Facere, ullam nostrum sed, nihil et minima repellat vel eum
@@ -245,32 +256,24 @@ function App() {
   );
 }
 
-export default App;
-=======
-import './css/App.css';
-import Navbar from './navbar';
-import Main from './main';
-import AboutMe from './aboutMe';
-import Services from './services';
-import Skills from './skills';
-import Projects from './projects';
-import Contact from './contact';
-import Footer from './footer';
 
-function App() {
-  return (
-    <>
-      <Navbar/>
-      <Main/>
-      <AboutMe/>
-      <Services/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </>
-  );
-}
+
+
+
+// function App() {
+//   return (
+//     <>
+//       <Navbar />
+//       <Main />
+//       <AboutMe />
+//       <Services />
+//       <Skills />
+//       <Projects />
+//       <Contact />
+//       <Footer />
+//     </>
+//   );
+// }
 
 export default App;
 
