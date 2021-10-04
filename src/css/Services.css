@@ -73,7 +73,7 @@ section .title::after {
 }
 .services,
 .teams {
-  color: #fff;
+  /* color: #fff; */
   background: #111;
 }
 .services .title::before,
