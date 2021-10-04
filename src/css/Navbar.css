@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@400;600&display=swap');
+
+
+
+.navmain
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+}
+
+/* Logo */
+.logo
+{
+  font-size: larger;
+  color: white;
+  margin: 0 0 0 5%;
+  width:auto;
+  height: 90px;
+  padding: 0.3em 1.3em;
+  background-color: crimson;
+  border-radius: 0 0 200px 200px;
+  font-weight: 800;
+  font-size: 30px;
+  font-family: 'Nunito', sans-serif;
+  position: absolute;
+  top: 0px;
+  left: 2em;
+  letter-spacing: 2px;
+}
+
+
+.top-left
+{
+  /* border: 1px solid bla; */
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 1px;
+  left: -35px;
+  border-radius: 0 25px 0 0;
+  background-color: white;
+}
+.top-right
+{
+  /* border: 1px solid black; */
+  width: 50px;
+  height: 60px;
+  position: absolute;
+  top: 1px;
+  right: -35px;
+  border-radius: 25px 0 0 0;
+  background-color: white;
+}
+
+/* Links */
+
+#toggle-menu
+{
+  /* border: 1px solid black; */
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+  height: 70px;
+  position: absolute;
+  top: 0px;
+  right: 100px;
+  width: auto;
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+
+#toggle-menu li a
+{
+  font-family: 'Nunito', sans-serif;
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  font-family: 800;
+  padding: 1.34rem 1rem;
+  border-radius: 0 0 10px 10px;
+  /* border: 1px solid black; */
+
+}
+
+
+#toggle-menu li a:hover{
+  transition: 0.3s all ease;
+  color: white;
+  background-color: crimson;
+  border-radius: 0 0 10px 10px;
+  box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+
+}
+
+.toggle-btn
+{
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 31px;
+  height: 21px;
+}
+
+.toggle-btn .bar
+{
+  height: 3px;
+  width: 100%;
+  background-color: black;
+  border-radius: 30px;
+}
+
+@media (max-width:900px)
+{
+  #toggle-menu
+  {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    
+    display: flex;
+  }
+  .toggle-btn {
+    display: flex;
+  }
+  #toggle-menu li
+  {
+    width: 100%;
+    border-bottom: 2px solid black;
+    margin: 5px;
+    border-radius: none;
+  }
+  .active
+  {
+    background-color: none;
+  }
+}
+
+  
+

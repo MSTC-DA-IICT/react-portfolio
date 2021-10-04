@@ -15,17 +15,6 @@ body {
   overflow-x: hidden;
 }
 
-/* ********************************* NAVBAR ********************************* */
-.navbar {
-  width: 100%;
-  background-color: #fff;
-}
-
-.navbar .menu {
-  list-style: none;
-  display: flex;
-  align-items: center;
-}
 
 /* ********************************* HOME ********************************** */
 .main {
