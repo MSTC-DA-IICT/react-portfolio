@@ -1,5 +1,9 @@
 
 import './css/App.css';
+import './css/Services.css';
+import './css/Main.css';
+import mainImage from './image/main-image.png';
+
 import Navbar from './navbar';
 import Main from './main';
 import AboutMe from './aboutMe';
