@@ -82,6 +82,8 @@ footer .social-media-container i {
 }
 footer .social-media-container i:hover {
   color: #580818;
+  transform: rotate(360deg);
+  transition: transform 200ms ease-in-out;
 }
 
 span {
