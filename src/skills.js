@@ -22,7 +22,7 @@ function Skills() {
             </div>
             <div className="column-right">
                 {/* 
-                    To enter a new skill , go to ./static/Skills.js and follow the 
+                    To enter a new skill , go to ./data/Skills.js and follow the 
                     comments there to make the addition.
                 */}
               {Stack.map((item) => {
