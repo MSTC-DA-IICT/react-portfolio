@@ -12,6 +12,7 @@
 * Go to the `Issues` find an issue for you. 
 * If you completely understanf the issue then leave a comment to owner to assing that issue.
 * Once you are assigned the issue, start working on it and finally make your `PR`.
+* If you find a bug or want to add a new feature then you can specify it by adding a new issue. We will look into it and assign it.
 
 ---
   
