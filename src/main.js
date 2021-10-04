@@ -16,6 +16,7 @@ function Main(){
               <div className="main-image">
                 <img src={mainimg} alt="image" className="image" />
               </div>
+{/* IMG credits: Character vector created by vectorjuice - www.freepik.com  */}
             </div>
         </section>
         </>
