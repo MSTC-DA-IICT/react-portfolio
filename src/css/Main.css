@@ -1,0 +1,39 @@
+.main {
+    background: linear-gradient(39.97deg, #111 0.79%, #222 79.29%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 80px 10%;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.main-content > h1 {
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 3em;
+    line-height: 62px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin: 10px;
+}
+
+.main-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image {
+    margin-bottom: -30px;
+    width: 640px;
+    
+}

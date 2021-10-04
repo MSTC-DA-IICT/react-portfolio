@@ -1,6 +1,8 @@
 
 import './css/App.css';
 import './css/Services.css';
+import './css/Main.css';
+import mainImage from './image/main-image.png';
 
 function App() {
   return (
@@ -24,10 +26,13 @@ function App() {
 
       {/* MAIN */}
       <section className="main" id="main">
-        <div className="container">
+        <div className="main-container">
           <div className="main-content">
             <h1 className="text-1">Hello, I am </h1>
             <h1 className="text-2">#ME</h1>
+          </div>
+          <div className="main-image">
+            <img src={mainImage} alt="image" className="image" />
           </div>
         </div>
       </section>
@@ -61,36 +66,36 @@ function App() {
 
 
       {/* SERVICES SECTION */}
-    
+
       <section class="services" id="services">
-      <div class="max-width">
-        <h2 class="title">My services</h2>
-        <div class="serv-content">
+        <div class="max-width">
+          <h2 class="title">My services</h2>
+          <div class="serv-content">
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-paint-brush"></i>
-                    <div class="text">Web Design/UI</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-paint-brush"></i>
+                <div class="text">Web Design/UI</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-server"></i>
-                    <div class="text">Backend with Server</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-server"></i>
+                <div class="text">Backend with Server</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
             <div class="card">
-                <div class="box">
-                    <i class="fas fa-code"></i>
-                    <div class="text">Complete Web App</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
-                </div>
+              <div class="box">
+                <i class="fas fa-code"></i>
+                <div class="text">Complete Web App</div>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Rem quia sunt, quasi quo illo enim.</p>
+              </div>
             </div>
-           </div>
+          </div>
         </div>
-    
-</section>
+
+      </section>
 
 
       <hr></hr>
@@ -245,32 +250,32 @@ function App() {
   );
 }
 
-export default App;
-=======
-import './css/App.css';
-import Navbar from './navbar';
-import Main from './main';
-import AboutMe from './aboutMe';
-import Services from './services';
-import Skills from './skills';
-import Projects from './projects';
-import Contact from './contact';
-import Footer from './footer';
+// export default App;
+// =======
+// import './css/App.css';
+// import Navbar from './navbar';
+// import Main from './main';
+// import AboutMe from './aboutMe';
+// import Services from './services';
+// import Skills from './skills';
+// import Projects from './projects';
+// import Contact from './contact';
+// import Footer from './footer';
 
-function App() {
-  return (
-    <>
-      <Navbar/>
-      <Main/>
-      <AboutMe/>
-      <Services/>
-      <Skills/>
-      <Projects/>
-      <Contact/>
-      <Footer/>
-    </>
-  );
-}
+// function App() {
+//   return (
+//     <>
+//       <Navbar/>
+//       <Main/>
+//       <AboutMe/>
+//       <Services/>
+//       <Skills/>
+//       <Projects/>
+//       <Contact/>
+//       <Footer/>
+//     </>
+//   );
+// }
 
 export default App;
 
