@@ -1,4 +1,4 @@
-import mainImage from './image/mainimg.png';
+import mainImage from './image/mainimg.jpg';
 function Main() {
   return (
     <>
