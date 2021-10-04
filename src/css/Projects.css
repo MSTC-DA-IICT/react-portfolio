@@ -58,7 +58,7 @@
     opacity: 0;
 }
 
-.card:hover:before{
+.projects-tiles .card:hover:before{
     opacity: 1;
 }
 
