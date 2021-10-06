@@ -1,9 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito&family=Nunito+Sans:wght@400;600&display=swap");
 
-
-
-.navmain
-{
+.navmain {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -13,33 +10,31 @@
   border-radius: 0 0 10px 10px;
   box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
   position: fixed;
+  top: 0em;
+  right: 0;
   z-index: 99;
 }
 
 /* Logo */
-.logo
-{
+.logo {
   font-size: larger;
   color: white;
   margin: 0 0 0 5%;
-  width:auto;
+  width: auto;
   height: 90px;
   padding: 0.3em 1.3em;
   background-color: crimson;
   border-radius: 0 0 200px 200px;
   font-weight: 800;
   font-size: 30px;
-  font-family: 'Nunito', sans-serif;
+  font-family: "Nunito", sans-serif;
   position: absolute;
   top: 0px;
   left: 2em;
   letter-spacing: 2px;
 }
 
-
-.top-left
-{
-  /* border: 1px solid bla; */
+.top-left {
   width: 50px;
   height: 60px;
   position: absolute;
@@ -48,8 +43,7 @@
   border-radius: 0 25px 0 0;
   background-color: white;
 }
-.top-right
-{
+.top-right {
   /* border: 1px solid black; */
   width: 50px;
   height: 60px;
@@ -60,95 +54,108 @@
   background-color: white;
 }
 
-/* Links */
-
-#toggle-menu
-{
-  /* border: 1px solid black; */
-  border-radius: 0 0 10px 10px;
-  box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
-  height: 70px;
-  position: absolute;
-  top: 0px;
-  right: 100px;
-  width: auto;
-  display: flex;
-  align-items: center;
-  list-style: none;
-}
-
-#toggle-menu li a
-{
-  font-family: 'Nunito', sans-serif;
-  text-decoration: none;
-  color: black;
-  font-size: 20px;
-  font-family: 800;
-  padding: 1.34rem 1rem;
-  border-radius: 0 0 10px 10px;
-  /* border: 1px solid black; */
-
-}
-
-
-#toggle-menu li a:hover{
-  transition: 0.3s all ease;
-  color: white;
-  background-color: crimson;
-  border-radius: 0 0 10px 10px;
-  box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
-
-}
-
-.toggle-btn
-{
-  position: absolute;
-  top: 0.75rem;
-  right: 1rem;
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 31px;
-  height: 21px;
-}
-
-.toggle-btn .bar
-{
-  height: 3px;
-  width: 100%;
-  background-color: black;
-  border-radius: 30px;
-}
-
-@media (max-width:900px)
-{
-  #toggle-menu
-  {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-    padding: 10px;
+/* Navbar for Larger Screens */
+@media (min-width: 900px) {
+  .navbar-sm{
+    display: none;
+  }
+  #toggle-menu {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+    height: 70px;
     position: absolute;
-    top: 80px;
-    right: 0;
-    
+    top: 0px;
+    right: 10px;
+    width: auto;
+    padding: 0px 15px;
     display: flex;
+    align-items: center;
+    list-style: none;
   }
+
+  #toggle-menu li a {
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 800;
+    padding: 0px 15px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  #toggle-menu li a:hover {
+    transition: 0.3s all ease;
+    color: white;
+    padding: 7px 15px;
+    background-color: crimson;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+  }
+
   .toggle-btn {
-    display: flex;
-  }
-  #toggle-menu li
-  {
-    width: 100%;
-    border-bottom: 2px solid black;
-    margin: 5px;
-    border-radius: none;
-  }
-  .active
-  {
-    background-color: none;
+    display: none;
   }
 }
 
-  
+/* Navbar for Smaller screens */
+@media (max-width: 900px) {
+  #toggle-menu {
+   display: none;
+  }
 
+  .dropdown > .active > a{
+    background-color: crimson !important;
+  }
+  .dropdown-toggle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0.5px;
+    left: 42vw;
+    justify-content: space-evenly;
+    align-items :right;
+    text-align: center;
+    width: 31px;
+    height: 36px;
+    cursor: pointer;
+  }
+
+  .dropdown-toggle .bar {
+    height: 3px;
+    width: 100%;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  .dropdown-item a {
+    font-family: "Nunito", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 800;
+    padding: 7px 15px;
+    border-radius: 0 0 10px 10px;
+  }
+
+  .dropdown-item a:hover {
+    transition: 0.3s all ease;
+    color: white;
+    padding: 5px 15px;
+    background-color: crimson !important;
+    border-radius: 10px;
+    box-shadow: 1px 2px 20px rgba(220, 20, 60, 0.2);
+  }
+
+  .dropdown-item:active {
+    transition: 0.3s all ease;
+    padding: 5px 15px;
+    background-color: transparent;
+    color: black;
+    border-radius: 10px;
+  }
+
+  .dropdown-toggle::after {
+    display:none;
+}
+  
+}
