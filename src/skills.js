@@ -33,7 +33,7 @@ function Skills() {
               {Stack.map((item) => {
                 return (
                   <div className="item">
-                    <img className="logo-img" src={item[2]} alt="img" />
+                    <h6 className="technology">{item[2]}</h6>
 
                     {/* <span>{item[0]}</span> */}
                     <div className="percentage">
