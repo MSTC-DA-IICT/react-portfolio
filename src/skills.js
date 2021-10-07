@@ -1,4 +1,8 @@
 import Stack from "./data/Skills";
+import './css/Skills.css'
+import coding from './image/coding.gif'
+
+
 
 function Skills() {
   return (
@@ -9,16 +13,17 @@ function Skills() {
           <h2 className="title">My Skills</h2>
           <div className="skills-content">
             <div className="column left">
-              <div className="text">My Creative Skills</div>
-              <p>
+             
+              <div className="text"><h3 className="red">My Creative Skills</h3></div>
+              <div className="code-gif"> 
+              <p className="skills-para">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
                 optio placeat a officia nemo veniam officiis repellat odit
                 iusto, dicta facilis quaerat aliquam ut sunt impedit labore
                 atque tempora harum maiores quidem rem deserunt. Voluptatem,
-                saepe rem. Facere, ullam nostrum sed, nihil et minima repellat
-                vel eum accusantium, in consequatur corporis. Accusamus
-                laboriosam nostrum, consequuntur nulla odio id aut minima.
-              </p>
+                
+              </p><img className="gif" src={coding} alt="coding-gif" /></div>
+             
             </div>
             <div className="column-right">
                 {/* 
@@ -28,7 +33,9 @@ function Skills() {
               {Stack.map((item) => {
                 return (
                   <div className="item">
-                    <span>{item[0]}</span>
+                    <img className="logo-img" src={item[2]} alt="img" />
+
+                    {/* <span>{item[0]}</span> */}
                     <div className="percentage">
                       <div className="progress">
                         <div
