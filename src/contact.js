@@ -35,7 +35,7 @@ function Contact(){
                     </div>
                 </div>
                 <div className="column right">
-                    <h2 className="text">Send Me a Message</h2>
+                    <h1 className="text">Send Me a Message</h1>
                     <form action="#" method="POST">
                     <div className="fields">
                         <div className="field name">

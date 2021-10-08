@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-around;
 }
+
 .contact input[type="text"] {
     padding: 13px 36px;
     border-radius: 10px;
@@ -69,7 +70,30 @@
       margin-top: 8px;
   }
 
+  @media (max-width: 610px) {
+    .contact-content
+    {
+      width: 5%;
+      flex-direction: column;
+    }
 
+    .contact input[type="email"]{
+      padding: 13px 7px;
+    }
+
+    .contact input[type="name"]{
+      padding: 13px 7px;
+    }
+
+    .contact input[type="text"]{
+      padding: 13px 7px;
+    }
+
+    .contact textarea{
+      padding: 13px 7px;
+    }
+
+  }
 
 
 
