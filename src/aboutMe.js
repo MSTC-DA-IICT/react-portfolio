@@ -1,4 +1,4 @@
-import avtar from './image/mstcLogo.png'
+import avtar from './image/logo1.png'
 function AboutMe(){
     return(
         <>
@@ -10,7 +10,7 @@ function AboutMe(){
                 </h2>
                 <div className="about-content">
                     <div className="column left">
-                    <img src={avtar} alt="avatar" height='200px' />
+                    <img src={avtar} alt="avatar" height='150px' />
                     </div>
                     <div className="column right">
                     <div className="text">
