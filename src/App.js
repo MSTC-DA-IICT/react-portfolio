@@ -1,4 +1,4 @@
-
+import React, { useState, useEffect } from 'react';
 import AboutMe from './pages/aboutMe';
 import Contact from './pages/contact';
 import './css/App.css';
@@ -14,24 +14,29 @@ import Skills from './pages/skills';
 
 
 function App() {
-  const spinner = document.getElementById('loader-wrapper');
+  const [ spinner, setSpinner ] = useState(true);
 
-  if (spinner && !spinner.hasAttribute('hidden')) {
-    spinner.setAttribute('hidden', 'true');
-  }
-  return (
-    <>
-      <NavbarLg />
-      <NavbarSm />
-      <Main />
-      <AboutMe />
-      <Services />
-      <Skills />
-      <Projects />
-      <Contact />
-      <Footer />
-    </>
-  );
+  // It will be executed before rendering
+
+  useEffect(() => {
+    setTimeout(() => setSpinner(false), 1000)
+  }, []);
+
+  // [] means like componentDidMount
+
+  return !spinner && 
+<>
+  <NavbarLg />
+  <NavbarSm />
+  <Main />
+  <AboutMe />
+  <Services />
+  <Skills />
+  <Projects />
+  <Contact />
+  <Footer />
+</>;
+  
 }
 
 export default App;
