@@ -4,36 +4,29 @@ to add a new skill, add a new array to the end of the "Skills" array and :-
 -  put your percentage as the second element (String, followed by % symbol)
 just like the data entered below.
 */
-import html from '../image/html.png'
-import css from '../image/css.png'
-import firebase from '../image/firebase.png'
-import js from '../image/js.png'
-import mongodb from '../image/mongodb.png'
-import react   from   '../image/react.png'
-import express from '../image/express.png'
 
 
 const Skills = [
     [
-        "HTML" , "90%", html
+        "HTML" , "90%", "HTML"
     ],
     [
-        "CSS" , "70%",css
+        "CSS" , "70%", "CSS"
     ],
     [
-        "JavaScript" , "75%",js
+        "JavaScript" , "75%", "JavaScript"
     ],
     [
-        "ReactJs" , "60%",react
+        "ReactJs" , "60%", "ReactJs"
     ],
     [
-        "Express.Js" , "80%",express
+        "Express.Js" , "80%", "Express.Js"
     ],
     [
-        "MongoDB" , "80%",mongodb
+        "MongoDB" , "80%", "MongoDB"
     ],
     [
-        "Firebase" , "60%",firebase
+        "Firebase" , "60%", "Firebase"
     ],
 ]
 
