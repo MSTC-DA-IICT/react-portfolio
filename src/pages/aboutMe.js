@@ -1,4 +1,4 @@
-import avtar from './image/logo1.png'
+import avtar from '../image/logo1.png'
 function AboutMe(){
     return(
         <>
