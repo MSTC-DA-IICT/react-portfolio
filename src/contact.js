@@ -1,66 +1,61 @@
 import "./css/Contact.css";
-function Contact(){
-    return(
-        <>
-        {/* CONTACT SECTION */}
-            <section className="contact" id="contact">
-                <div className="container"></div>
-                <h2 className="title">
-                Contact Me
-                </h2>
-                <div className="contact-content">
-                <div className="column left">
+import { ReactComponent as Mailbox } from "./image/mailbox.svg";
 
-                    <div className="table">
-                    <div className="row">
-                        <div className="info">
-                        <div className="head">Name</div>
-                        <div className="sub-title">#ME</div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="info">
-                        <div className="head">Address</div>
-                        <div className="sub-title">India</div>
-                        </div>
-                    </div>
-                    <div className="row">
-                        <div className="info">
-                        <div className="head">Email</div>
-                        <div className="sub-title">
-                            <a href="mailto:myemail@gmail.com">myemail@gmail.com</a>
-                        </div>
-                        </div>
-                    </div>
-                    </div>
+const Contact = () => {
+    return (
+        <div className="contact-container">
+            <div className="contact-wrapper">
+                <div className="contact-header-wrapper">
+                    <p className="contact-header-main-text">Contact Me</p>
+                    <p className="contact-header-sub-text">
+                        Let's get in touch 🤝
+                    </p>
                 </div>
-                <div className="column right">
-                    <h2 className="text">Send Me a Message</h2>
-                    <form action="#" method="POST">
-                    <div className="fields">
-                        <div className="field name">
-                        <input type="text" id="name" name="name" placeholder="Name" />
+                <div className="contact-main-wrapper">
+                    <div className="contact-left-wrapper">
+                        <Mailbox className="mail-box" />
+                    </div>
+                    <form className="contact-right-wrapper">
+                        <input
+                            required
+                            className="contact-input"
+                            placeholder="John Doe"
+                        />
+                        <input
+                            required
+                            className="contact-input"
+                            placeholder="abc@xyz.com"
+                        />
+                        <textarea
+                            required
+                            rows="30"
+                            cols="40"
+                            placeholder="Hey there! 👋"
+                        ></textarea>
+                        <div className="contact-right-btn-wrapper">
+                            <button className="contact-right-btn">
+                                Send Message
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    className="h-6 w-6"
+                                    fill="none"
+                                    viewBox="0 0 24 24"
+                                    stroke="currentColor"
+                                >
+                                    <path
+                                        strokeLinecap="round"
+                                        strokeLinejoin="round"
+                                        strokeWidth={2}
+                                        d="M9 5l7 7-7 7"
+                                    />
+                                </svg>
+                            </button>
                         </div>
-                        <div className="field email">
-                        <input type="email" id="email" name="email" placeholder="Email" />
-                        </div>
-                    </div>
-                    <div className="field subject">
-                        <input type="name" id="subject" name="subject" placeholder="Subject" />
-                    </div>
-                    <div className="field msg">
-                        <textarea id="msg" name="msg" placeholder="Message" cols="30" rows="10"></textarea>
-                    </div>
-                    <div className="button">
-                        <button type="submit">Send Message</button>
-                    </div>
                     </form>
                 </div>
-                </div>
-            </section>
-            <hr />
-        </>
+            </div>
+        </div>
     );
-}
+};
 
 export default Contact;
