@@ -32,28 +32,53 @@ function Footer() {
           </li>
         </ul>
         <div className="social-media-container">
-          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-facebook-square"></i>
+          <a
+            href="https://www.facebook.com"
+            className="facebook"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-facebook-square"></i>@Facebook Id
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-twitter-square"></i>
+          <a
+            href="https://twitter.com"
+            className="twitter"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-twitter-square"></i>@Twitter Id
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-linkedin"></i>
+          <a
+            href="https://www.linkedin.com"
+            className="linkedIn"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-linkedin"></i>@LinkedIn Id
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-youtube-square"></i>
+          <a
+            href="https://www.youtube.com"
+            className="youtube"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-youtube-square"></i>@Youtube Name
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
-            <i className="fab fa-github-square"></i>
+          <a
+            href="https://github.com"
+            className="github"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <i className="fab fa-github-square"></i>@Github Id
           </a>
         </div>
         <p className="copyrights"> Copyrights &copy; 2021 Hacktoberfest</p>
       </footer>
       <span>
-        Template taken from {" "}
+        Template taken from{" "}
         <a href="https://github.com/MSTC-DA-IICT/react-portfolio">
-           MSTC Github
+          MSTC Github
         </a>
       </span>
     </>
