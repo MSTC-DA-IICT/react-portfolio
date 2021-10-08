@@ -82,3 +82,21 @@
     font-family: 'nunito',sans-serif;
     z-index: 2;
 }
+
+@media (max-width: 610px) {
+    .main-container
+    {
+        flex-direction: column;
+    }
+
+    .main-content
+    {
+        width: 95%;
+    }
+
+    .main-image img
+    {   
+        width: 100%;
+        right: 2%;
+    }
+  }
