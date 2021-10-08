@@ -14,6 +14,11 @@ import Skills from './skills';
 
 
 function App() {
+  const spinner = document.getElementById('loader-wrapper');
+
+  if (spinner && !spinner.hasAttribute('hidden')) {
+    spinner.setAttribute('hidden', 'true');
+  }
   return (
     <>
       <NavbarLg />
