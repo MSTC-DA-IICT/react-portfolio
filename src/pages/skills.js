@@ -1,6 +1,6 @@
-import Stack from "./data/Skills";
-import './css/Skills.css'
-import coding from './image/coding.gif'
+import Stack from "../data/Skills";
+import '../css/Skills.css'
+import coding from '../image/coding.gif'
 
 
 
