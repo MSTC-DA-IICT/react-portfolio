@@ -1,4 +1,4 @@
-import './css/Navbar.css'
+import '../../css/Navbar.css'
 function NavbarLg(){
     return(
         <>

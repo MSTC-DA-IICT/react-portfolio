@@ -4,7 +4,7 @@ function Main() {
     <>
       {/* MAIN */}
 
-      <section className="main" id="main">
+      <section className="main" id="home">
         <div className="main-container">
           <div className="main-content">
             <h1 className="text-1">Hello, I am </h1>

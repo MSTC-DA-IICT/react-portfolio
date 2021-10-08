@@ -1,9 +1,9 @@
-import "./css/Contact.css";
-import { ReactComponent as Mailbox } from "./image/mailbox.svg";
+import "../css/Contact.css";
+import { ReactComponent as Mailbox } from "../image/mailbox.svg";
 
 const Contact = () => {
     return (
-        <div className="contact-container">
+        <div id="contact" className="contact-container">
             <div className="contact-wrapper">
                 <div className="contact-header-wrapper">
                     <p className="contact-header-main-text">Contact Me</p>
