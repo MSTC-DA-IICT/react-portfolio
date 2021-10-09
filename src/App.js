@@ -19,13 +19,18 @@ function App() {
   // It will be executed before rendering
 
   useEffect(() => {
-    setTimeout(() => setSpinner(false), 1000)
+    const spinner = document.getElementById('loader-wrapper');
+
+    if (spinner && !spinner.hasAttribute('hidden')) {
+      spinner.setAttribute('hidden', 'true');
+    }
+    setSpinner(false)
   }, []);
 
   // [] means like componentDidMount
 
   return !spinner && 
-<>
+  <>
   <NavbarLg />
   <NavbarSm />
   <Main />
