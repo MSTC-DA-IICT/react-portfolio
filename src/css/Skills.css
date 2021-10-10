@@ -1,0 +1,31 @@
+.skills-para{
+    font-size: 1.2em;
+    margin-top: 3em;
+}
+.technology{
+    width: 2.5em;
+    height: 2.5em;
+    margin: 2px;
+}
+.code-gif{
+    display: flex;
+    gap: 5em;
+}
+.gif{
+    width: 20em;
+}
+.red{
+    color: red;
+}
+
+@media (max-width: 690px) {
+    .gif {
+      display: none;
+    }
+}
+@media (max-width: 947px) {
+    .gif {
+      width: 15em;
+    }
+}
+  

@@ -47,6 +47,66 @@ section .title {
 
 /* ********************************* SKILLS ********************************* */
 
+.skills .column-right{
+  margin-top: 2em;
+  overflow-x: hidden;
+}
+.skills .item{
+  margin: 0.6em 0.1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+@media only screen and (min-width: 700px){
+  .skills .progress {
+    border-radius: 9px;
+    background-color: transparent;
+    width: 21vw;
+    height: 8px;
+    border: 0.9px solid rgb(175, 174, 174);
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -1px;
+    margin-right: 2em;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  .skills .progress {
+    border-radius: 8px;
+    background-color: transparent;
+    min-width: 170px;
+    height: 8px;
+    border: 0.9px solid rgb(175, 174, 174);
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: -1px;
+    margin-right: 2em;
+  }  
+}
+
+
+.skills .progress-bar {
+  height: 8px;
+  background-color: crimson;
+  border-radius: 10px;
+}
+
+.skills .percentage{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
 
 
 /* ********************************* CONTACT ********************************* */

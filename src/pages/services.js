@@ -1,6 +1,6 @@
 
-import master from './master'
-import Services_box from './Services_box';
+import master from '../master'
+import Services_box from '../Services_box';
 
 function Services(){
     return(

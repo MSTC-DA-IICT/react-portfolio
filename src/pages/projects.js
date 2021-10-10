@@ -1,6 +1,6 @@
-import "./css/Projects.css";
-import master from './master'
-import Project_box from "./Project_box";
+import "../css/Projects.css";
+import master from '../master'
+import Project_box from "../Project_box";
 
 function Projects(){
     return(

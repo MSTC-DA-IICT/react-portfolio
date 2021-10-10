@@ -1,21 +1,23 @@
 
+import AboutMe from './pages/aboutMe';
+import Contact from './pages/contact';
 import './css/App.css';
-import './css/Services.css';
 import './css/Main.css';
-
-import Navbar from './navbar';
+import './css/Services.css';
+import Footer from './components/Footer/footer';
 import Main from './main';
-import AboutMe from './aboutMe';
-import Services from './services';
-import Skills from './skills';
-import Projects from './projects';
-import Contact from './contact';
-import Footer from './footer';
+import NavbarLg from './components/Navbar/navbarLg';
+import NavbarSm from './components/Navbar/navbarSm';
+import Projects from './pages/projects';
+import Services from './pages/services';
+import Skills from './pages/skills';
+
 
 function App() {
   return (
     <>
-      <Navbar />
+      <NavbarLg />
+      <NavbarSm />
       <Main />
       <AboutMe />
       <Services />

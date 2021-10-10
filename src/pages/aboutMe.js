@@ -1,5 +1,5 @@
 
-import master from './master'
+import master from '../master'
 
 function AboutMe(){
     return(
@@ -12,7 +12,7 @@ function AboutMe(){
                 </h2>
                 <div className="about-content">
                     <div className="column left">
-                    <img src="#" alt="avatar" />
+                    <img src="#" alt="avatar" height='150px' />
                     </div>
                     <div className="column right">
                     <div className="text">

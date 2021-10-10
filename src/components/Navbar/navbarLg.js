@@ -1,5 +1,5 @@
-import './css/Navbar.css'
-function Navbar(){
+import '../../css/Navbar.css'
+function NavbarLg(){
     return(
         <>
         {/* NAVBAR */}
@@ -10,11 +10,7 @@ function Navbar(){
           <span><img src="../logo.png" alt="logo" className="logoimg"/></span>
           <i className="top-right"></i></div>
 
-          <a href="#" className="toggle-btn"> {/*onclick method pending*/}
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-          </a>
+  
           <div id="shadow-border">
           <ul className="menu" id="toggle-menu">
             <li><a href="#home" className="active">Home</a></li>
@@ -31,4 +27,4 @@ function Navbar(){
     );
 }
 
-export default Navbar;
+export default NavbarLg;

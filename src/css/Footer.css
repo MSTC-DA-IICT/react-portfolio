@@ -73,17 +73,41 @@ footer .footer-list li a:hover {
 footer .social-media-container {
   margin: 5px auto;
 }
+footer .social-media-container a {
+  font-size: 0px;
+  color: #fff;
+  margin: 0px 10px;
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+footer .social-media-container a:hover {
+  font-size: 30px;
+  padding: 10px 0px;
+  padding-right: 20px;
+  /* color: var(--crimson); */
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: #f5a2b3 5px 5px 10px;
+}
 footer .social-media-container i {
   padding: 20px;
   font-size: 30px;
-  color: #fff;
-  transition: all 0.4s ease;
-  text-shadow: 0px 0px 20px #580818;
 }
-footer .social-media-container i:hover {
-  color: #580818;
+.facebook:hover {
+  color: #1877f2;
 }
-
+.twitter:hover {
+  color: #1da1f2;
+}
+.linkedIn:hover {
+  color: #0a66c2;
+}
+.youtube:hover {
+  color: #ff0000;
+}
+.github:hover {
+  color: #161614;
+}
 span {
   display: flex;
   justify-content: center;
