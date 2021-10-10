@@ -1,3 +1,7 @@
+
+import master from './master'
+import Services_box from './Services_box';
+
 function Services(){
     return(
         <>
@@ -6,33 +10,12 @@ function Services(){
                 <div className="container">
                 <h2 className="title">My Services</h2>
                 <div className="services-content">
-                    <div className="card">
-                    <div className="box">
-                        <i className="fas fa-paint-brush"></i>
-                        <div className="card-title">Web Design / UI</div>
-                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                        ullam quidem
-                        expedita, suscipit sit accusantium? </p>
-                    </div>
-                    </div>
-                    <div className="card">
-                    <div className="box">
-                        <i className="fa fa-database"></i>
-                        <div className="card-title">Backend with Server</div>
-                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                        ullam quidem
-                        expedita, suscipit sit accusantium? </p>
-                    </div>
-                    </div>
-                    <div className="card">
-                    <div className="box">
-                        <i className="far fa-file-code"></i>
-                        <div className="card-title">Complete Web App</div>
-                        <p className="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa totam provident enim
-                        ullam quidem
-                        expedita, suscipit sit accusantium? </p>
-                    </div>
-                    </div>
+                    {master.services.map((servicenum,count=0)=>{
+                        console.log(servicenum.name);
+                        console.log(servicenum.desc);
+                        count = count + 1;
+                     return (<Services_box name={servicenum.name} desc={servicenum.desc} key={count}/>)
+                    })}
                 </div>
                 </div>
             </section>

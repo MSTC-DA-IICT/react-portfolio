@@ -1,4 +1,6 @@
 import "./css/Footer.css";
+import master from './master'
+
 function Footer() {
   return (
     <>
@@ -32,19 +34,19 @@ function Footer() {
           </li>
         </ul>
         <div className="social-media-container">
-          <a href="https://www.facebook.com" target="_blank" rel="noreferrer">
+          <a href={master.social_links.facebook} target="_blank" rel="noreferrer">
             <i className="fab fa-facebook-square"></i>
           </a>
-          <a href="https://twitter.com" target="_blank" rel="noreferrer">
+          <a href={master.social_links.twitter} target="_blank" rel="noreferrer">
             <i className="fab fa-twitter-square"></i>
           </a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noreferrer">
+          <a href={master.social_links.linkedin} target="_blank" rel="noreferrer">
             <i className="fab fa-linkedin"></i>
           </a>
-          <a href="https://www.youtube.com" target="_blank" rel="noreferrer">
+          <a href={master.social_links.youtube} target="_blank" rel="noreferrer">
             <i className="fab fa-youtube-square"></i>
           </a>
-          <a href="https://github.com" target="_blank" rel="noreferrer">
+          <a href={master.social_links.github} target="_blank" rel="noreferrer">
             <i className="fab fa-github-square"></i>
           </a>
         </div>

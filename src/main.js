@@ -1,4 +1,5 @@
 import mainimg from './image/mainimg.jpg'
+import master from './master'
 function Main(){
     return(
         <>
@@ -11,7 +12,7 @@ function Main(){
               </div>
               <div className="main-content">
                 <h1 className="text-1">Hello, I am </h1>
-                <h1 className="text-2">#ME</h1>
+                <h1 className="text-2">{master.firstname}</h1>
               </div>
               <div className="main-image">
                 <img src={mainimg} alt="image" className="image" />

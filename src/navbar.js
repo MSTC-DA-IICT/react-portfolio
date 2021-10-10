@@ -7,7 +7,7 @@ function Navbar(){
         <div className="navmain" id="navmain">
           <div className="logo">
           <i className="top-left"></i>
-          <span>MSTC</span>
+          <span><img src="../logo.png" alt="logo" className="logoimg"/></span>
           <i className="top-right"></i></div>
 
           <a href="#" className="toggle-btn"> {/*onclick method pending*/}

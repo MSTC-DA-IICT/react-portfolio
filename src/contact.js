@@ -1,4 +1,5 @@
 import "./css/Contact.css";
+import master from './master.json'
 function Contact(){
     return(
         <>
@@ -15,20 +16,20 @@ function Contact(){
                     <div className="row">
                         <div className="info">
                         <div className="head">Name</div>
-                        <div className="sub-title">#ME</div>
+                        <div className="sub-title">{master.firstname}</div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="info">
                         <div className="head">Address</div>
-                        <div className="sub-title">India</div>
+                        <div className="sub-title">{master.address}</div>
                         </div>
                     </div>
                     <div className="row">
                         <div className="info">
                         <div className="head">Email</div>
                         <div className="sub-title">
-                            <a href="mailto:myemail@gmail.com">myemail@gmail.com</a>
+                            <a href="mailto:myemail@gmail.com">{master.email}</a>
                         </div>
                         </div>
                     </div>
