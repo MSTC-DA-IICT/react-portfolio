@@ -1,10 +1,15 @@
+import ImageLoader from './components/ImageLoader';
 import mainimg from './image/mainimg.jpg'
 import master from './master'
+import React from "react";
+import "./css/Loader.css"
+
 function Main(){
+  const {hasLoaded} = ImageLoader(mainimg)
     return(
         <>
             {/* MAIN */}
-      
+
         <section className="main" id="main">
             <div className="main-container">
               <div className="center">
@@ -15,7 +20,12 @@ function Main(){
                 <h1 className="text-2">{master.firstname}</h1>
               </div>
               <div className="main-image">
-                <img src={mainimg} alt="image" className="image" />
+                {!hasLoaded &&
+                  <div class="image">
+                    <div class="loader"/>
+                  </div>
+                }
+                {hasLoaded && <img src={mainimg} alt="image" className="image" />}
               </div>
             </div>
         </section>
