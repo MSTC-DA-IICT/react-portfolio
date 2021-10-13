@@ -5,7 +5,8 @@ import './css/App.css';
 import './css/Main.css';
 import './css/Services.css';
 import Footer from './components/Footer/footer';
-import Main from './main';
+// import Main from './main';
+import Home from './components/Home/Home'
 import NavbarLg from './components/Navbar/navbarLg';
 import NavbarSm from './components/Navbar/navbarSm';
 import Projects from './pages/projects';
@@ -18,7 +19,8 @@ function App() {
     <>
       <NavbarLg />
       <NavbarSm />
-      <Main />
+      {/* <Main /> */}
+      <Home/>
       <AboutMe />
       <Services />
       <Skills />
