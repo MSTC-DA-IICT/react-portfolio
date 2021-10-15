@@ -35,7 +35,7 @@
     transition: 0.5s ease-in-out;
     justify-self: center;
     align-self: center;
-    margin: 25px 0;
+    margin: 25px auto;
 }
 
 .card:hover{

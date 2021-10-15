@@ -170,5 +170,7 @@
   .dropdown-toggle::after {
     display:none;
 }
-  
+ .navbar{
+   display: none;
+ }
 }

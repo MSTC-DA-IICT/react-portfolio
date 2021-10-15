@@ -61,4 +61,7 @@
     padding: 4rem 1rem 2rem 0.8rem;
     text-align: center;
   }
+  .home-content{
+    margin: 0;
+  }
 }
