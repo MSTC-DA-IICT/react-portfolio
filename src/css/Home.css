@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+.wrapper {
+  min-height: 100vh;
+  z-index: -1;
+  box-sizing: border-box;
+  display: flex;
+  background-color: #fff;
+  /* background-color: rgb(236, 221, 224); */
+}
+.home-content {
+  width: 100%;
+  margin: 2rem;
+  padding: 6rem 2rem 4rem 3rem;
+}
+.home-content .home-heading h1 {
+  font-family: var(--font);
+  font-size: 4.5rem;
+  color: crimson;
+  font-family: "Lemon", cursive;
+}
+.home-content .home-heading p {
+  font-size: 1.5rem;
+  margin-top: 0;
+  line-height: 2.5rem;
+  padding: 2rem 0px 2rem 0px;
+  margin-bottom: 1.5rem;
+  font-weight: 500;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.home-social-links a:first-child {
+  padding-left: 0;
+}
+.home-social-links a {
+  padding-left: 1rem;
+  font-size: 2.5rem;
+  color: crimson;
+  cursor: pointer;
+}
+.home-social-links a:hover{
+  color: #111;;
+}
+
+.wrapper .home-img-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1284px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .home-content{
+    padding: 4rem 1rem 2rem 0.8rem;
+    text-align: center;
+  }
+}
