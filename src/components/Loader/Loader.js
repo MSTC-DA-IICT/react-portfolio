@@ -1,5 +1,6 @@
 import React from "react";
 import "./Loader.css";
+import LoadingImg from "../../image/Loading.svg";
 function Loader(props) {
 	const { setIsLoading } = props;
 	setTimeout(() => {
@@ -7,7 +8,7 @@ function Loader(props) {
 	}, 2000);
 	return (
 		<div className="loaders">
-			<img alt="loading" className="loadingImg" src={"/images/loading.svg"} />
+			<img alt="loading" className="loadingImg" src={LoadingImg} />
 			<div class="css-typing">
 				<p>
 					<h1
