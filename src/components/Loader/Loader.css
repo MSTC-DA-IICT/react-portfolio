@@ -1,0 +1,64 @@
+.loaders {
+	background-color: white;
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.css-typing p {
+	border-right: 0.15em solid crimson;
+	font-family: inherit;
+	font-size: 2rem;
+	white-space: nowrap;
+	overflow: hidden;
+}
+.css-typing p:nth-child(1) {
+	width: 7.3em;
+	-webkit-animation: type 2s steps(40, end);
+	animation: type 2s steps(40, end);
+	-webkit-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+@keyframes type {
+	0% {
+		width: 0;
+	}
+	99.9% {
+		border-right: 0.15em solid rgb(0, 0, 0);
+	}
+	100% {
+		border: none;
+	}
+}
+
+@-webkit-keyframes type {
+	0% {
+		width: 0;
+	}
+	99.9% {
+		border-right: 0.15em solid orange;
+	}
+	100% {
+		border: none;
+	}
+}
+
+@keyframes blink {
+	50% {
+		border-color: transparent;
+	}
+}
+@-webkit-keyframes blink {
+	50% {
+		border-color: tranparent;
+	}
+}
+
+.loadingImg {
+	animation-name: fadeIn;
+	animation-duration: 1.5s;
+}
