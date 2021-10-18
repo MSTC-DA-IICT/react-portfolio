@@ -9,18 +9,10 @@ function Loader(props) {
 	return (
 		<div className="loaders">
 			<img alt="loading" className="loadingImg" src={LoadingImg} />
-			<div class="css-typing">
-				<p>
-					<h1
-						style={{
-							color: "black",
-							fontSize: "4rem",
-							textShadow: "5px 5px 5px darkGrey",
-						}}
-					>
-						loading
-					</h1>
-				</p>
+
+			<div class="lds-ripple">
+				<div></div>
+				<div></div>
 			</div>
 		</div>
 	);
