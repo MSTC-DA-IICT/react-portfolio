@@ -1,6 +1,5 @@
 import React from "react";
 import "./Loader.css";
-import LoadingImg from "../../image/Loading.svg";
 function Loader(props) {
 	const { setIsLoading } = props;
 	setTimeout(() => {
@@ -8,7 +7,7 @@ function Loader(props) {
 	}, 2000);
 	return (
 		<div className="loaders">
-			<img alt="loading" className="loadingImg" src={LoadingImg} />
+			<img alt="loading" className="loadingImg" src={process.env.PUBLIC_URL + '/images/Loading.svg'} />
 
 			<div class="lds-ripple">
 				<div></div>

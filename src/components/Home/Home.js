@@ -1,6 +1,5 @@
 import React from "react";
 import "../../css/Home.css";
-import HomeVector from "../../image/mainimg.jpg";
 import Data from "../../master.json";
 const Home = () => {
   return (
@@ -29,7 +28,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-img-container">
-        <img src={HomeVector} alt="homeimg" width="100%" />
+        <img src={process.env.PUBLIC_URL + '/images/mainimg.jpg'} alt="homeimg" width="100%" />
       </div>
     </section>
   );

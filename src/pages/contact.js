@@ -1,5 +1,4 @@
 import "../css/Contact.css";
-import { ReactComponent as Mailbox } from "../image/mailbox.svg";
 
 const Contact = () => {
     return (
@@ -13,7 +12,7 @@ const Contact = () => {
                 </div>
                 <div className="contact-main-wrapper">
                     <div className="contact-left-wrapper">
-                        <Mailbox className="mail-box" />
+                        <img alt="mail-box" className="mail-box" src={process.env.PUBLIC_URL + '/images/mailbox.svg'} />
                     </div>
                     <form className="contact-right-wrapper">
                         <input
