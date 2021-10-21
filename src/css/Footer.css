@@ -71,27 +71,42 @@ footer .footer-list li a:hover {
 }
 
 footer .social-media-container {
-  margin: 5px auto;
+  margin: 0 auto;
+  padding: 5px 0;
+  max-width: 100%;
+  width:810px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 footer .social-media-container a {
   font-size: 0px;
   color: #fff;
-  margin: 0px 10px;
+  margin: 10px 0;
   text-decoration: none;
-  transition: all 0.4s ease;
+  transition: all 0.2s ease;
+  flex-basis:20%;
+  font-weight: bold;
 }
 footer .social-media-container a:hover {
-  font-size: 30px;
-  padding: 10px 0px;
-  padding-right: 20px;
+  font-size: 14px;
   /* color: var(--crimson); */
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: #f5a2b3 5px 5px 10px;
+  box-shadow: #f5a2b3 3px 3px 5px;
 }
+
+
 footer .social-media-container i {
-  padding: 20px;
-  font-size: 30px;
+  font-size: 40px;
+  vertical-align: middle;
+  line-height: 40px;
+}
+footer .social-media-container a:hover i {
+  font-size: 20px;
+  padding-right: 5px;
 }
 .facebook:hover {
   color: #1877f2;
@@ -128,8 +143,9 @@ span a {
     padding: 15px;
     font-size: 15px;
   }
-  footer .social-media-container i {
-    padding: 10px;
+  
+  footer .social-media-container a:hover {
+    font-size: 12px;
   }
 }
 @media (max-width: 610px) {
@@ -142,9 +158,18 @@ span a {
     padding: 10px;
     font-size: 12px;
   }
-  footer .social-media-container i {
-    font-size: 15px;
+
+  footer .social-media-container a:hover {
+    font-size: 8px;
   }
+  footer .social-media-container i {
+    font-size: 20px;
+    line-height: initial;
+    padding:3px;
+  }
+  
+
+  
 }
 @media (max-width: 470px) {
   footer .text {
