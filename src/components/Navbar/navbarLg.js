@@ -1,5 +1,4 @@
 import '../../css/Navbar.css'
-import logo from '../../image/logo1.png';
 function NavbarLg(){
     return(
         <>
@@ -8,7 +7,7 @@ function NavbarLg(){
         <div className="navmain" id="navmain">
           <div className="logo">
           <i className="top-left"></i>
-          <span><img src={logo} alt="logo" className="logoimg"/></span>
+          <span><img src={process.env.PUBLIC_URL + '/images/logo1.png'} alt="logo" className="logoimg"/></span>
           <i className="top-right"></i></div>
 
   

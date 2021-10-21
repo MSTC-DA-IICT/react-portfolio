@@ -1,10 +1,10 @@
 import ImageLoader from './components/ImageLoader';
-import mainimg from './image/mainimg.jpg'
 import master from './master'
 import React from "react";
 import "./css/Loader.css"
 
 function Main(){
+  const mainimg = process.env.PUBLIC_URL + '/images/mainimg.jpg'
   const {hasLoaded} = ImageLoader(mainimg)
     return(
         <>
