@@ -42,7 +42,6 @@ function Skills() {
           </div>
         </div>
       </section>
-      <hr />
     </>
   );
 }

@@ -10,8 +10,6 @@ function NavbarLg(){
           <i className="top-left"></i>
           <span><img src={logo} alt="logo" className="logoimg"/></span>
           <i className="top-right"></i></div>
-
-  
           <div id="shadow-border">
           <ul className="menu" id="toggle-menu">
             <li><a href="#home" className="active">Home</a></li>

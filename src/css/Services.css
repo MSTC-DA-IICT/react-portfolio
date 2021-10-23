@@ -1,5 +1,7 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +24,8 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+
 /* all similar content styling codes */
 section {
   padding: 100px 0;
@@ -33,7 +37,7 @@ section {
 }
 
 .services {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
 }
 
 .services .services-content {
@@ -50,7 +54,7 @@ section .title {
   font-weight: 500;
   margin-bottom: 60px;
   padding-bottom: 20px;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ibarra Real Nova", serif;
 }
 section .title::before {
   content: "";
@@ -67,7 +71,7 @@ section .title::after {
   bottom: -8px;
   left: 50%;
   font-size: 20px;
-  color: crimson;
+  color: #7000C4;
   padding: 0 5px;
   background: #fff;
   transform: translateX(-50%);
@@ -96,7 +100,7 @@ section .title::after {
   transition: all 0.3s ease;
 }
 .services .services-content .card:hover {
-  background: crimson;
+  background: #7000C4;
 }
 .services .services-content .card .box {
   transition: all 0.3s ease;
@@ -106,7 +110,7 @@ section .title::after {
 }
 .services .services-content .card i {
   font-size: 50px;
-  color: crimson;
+  color: #7000C4;
   transition: color 0.3s ease;
 }
 .services .services-content .card:hover i {
