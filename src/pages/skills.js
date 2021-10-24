@@ -1,11 +1,11 @@
 import '../css/Skills.css'
 import "../css/Loader.css"
 import ImageLoader from '../components/ImageLoader';
-import coding from '../image/coding.gif'
 import Skill_box from '../Skill_box'
 import master from '../master'
 
 function Skills() {
+  const coding = process.env.PUBLIC_URL + '/images/coding.gif'
   const {hasLoaded} = ImageLoader(coding)
   return (
     <>
