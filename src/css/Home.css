@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Lemon&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+
 .wrapper {
   min-height: 100vh;
   z-index: -1;
@@ -15,8 +17,8 @@
 .home-content .home-heading h1 {
   font-family: var(--font);
   font-size: 4.5rem;
-  color: crimson;
-  font-family: "Lemon", cursive;
+  color: #7000C4;
+  font-family: 'Ibarra Real Nova', serif;
 }
 .home-content .home-heading p {
   font-size: 1.5rem;
@@ -25,7 +27,7 @@
   padding: 2rem 0px 2rem 0px;
   margin-bottom: 1.5rem;
   font-weight: 500;
-  font-family: "Ubuntu", sans-serif;
+ font-family: 'Nunito Sans', sans-serif;
 }
 
 .home-social-links a:first-child {
@@ -34,11 +36,12 @@
 .home-social-links a {
   padding-left: 1rem;
   font-size: 2.5rem;
-  color: crimson;
+  color: #7000C4;
   cursor: pointer;
 }
 .home-social-links a:hover{
-  color: #111;;
+  /* color: #111;; */
+  color: #932fe0bd;
 }
 
 .wrapper .home-img-container {

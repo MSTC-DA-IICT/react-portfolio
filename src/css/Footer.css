@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
-:root {
-  --font: "Montserrat Alternates", sans-serif;
-  --crimson: #dc143c;
-}
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
 footer {
   width: 100%;
   bottom: 0;
-  background: var(--crimson);
+  background: #111;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -19,7 +17,9 @@ footer .text {
   font-size: 30px;
   font-weight: bold;
   margin: 20px auto;
+  font-family: 'Ibarra Real Nova', serif;
 }
+
 footer input[type="email"] {
   width: calc(100vw - 40vw);
   font-size: 26px;
@@ -36,14 +36,14 @@ footer input[type="submit"] {
   padding: 10px;
   color: #fff;
   font-size: 26px;
-  font-family: var(--font);
-  background: var(--crimson);
+  font-family: 'Nunito Sans', sans-serif;
+  background:#7000C4;
   cursor: pointer;
   margin-left: 2px;
 }
 
 footer input:hover[type="submit"] {
-  background: #580818;
+  background: #4c0483;
   color: #fff;
   border: 1px solid transparent;
   transition: all 0.3s ease-in-out;
@@ -52,6 +52,7 @@ footer .footer-list {
   margin: 25px auto;
   display: flex;
   list-style-type: none;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 footer .footer-list li a {
@@ -65,8 +66,8 @@ footer .footer-list li a {
 }
 
 footer .footer-list li a:hover {
-  border-bottom: 4px solid #580818;
-  color: #580818;
+  border-bottom: 4px solid #7000C4;
+  color: #7000C4;
   transition: all 0.4s ease;
 }
 
@@ -95,7 +96,6 @@ footer .social-media-container a:hover {
   /* color: var(--crimson); */
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: #f5a2b3 3px 3px 5px;
 }
 
 

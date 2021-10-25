@@ -23,9 +23,7 @@ body {
 }
 
 /* Common for all sections */
-section {
-  /* min-height: 100vh; */
-}
+
 
 section .title {
   text-align: center;
@@ -97,7 +95,7 @@ section .title {
 
 .skills .progress-bar {
   height: 8px;
-  background-color: crimson;
+  background-color: #7000C4;
   border-radius: 10px;
 }
 

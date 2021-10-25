@@ -9,8 +9,6 @@ function NavbarLg(){
           <i className="top-left"></i>
           <span><img src={process.env.PUBLIC_URL + '/images/logo1.png'} alt="logo" className="logoimg"/></span>
           <i className="top-right"></i></div>
-
-  
           <div id="shadow-border">
           <ul className="menu" id="toggle-menu">
             <li><a href="#home" className="active">Home</a></li>

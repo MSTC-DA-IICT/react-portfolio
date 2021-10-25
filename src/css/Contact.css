@@ -1,25 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
 .contact-container {
   height: 600px;
   width: 100%;
-  background: #da4e6a;
+  background: #fff;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .contact-header-main-text {
-  color: #fafafa;
   font-size: 55px;
   font-weight: 500;
   text-align: center;
+  font-family: 'Ibarra Real Nova', serif;
 }
 
 .contact-header-sub-text {
-  color: #f3f3f3;
+  color: #7000C4;
   font-size: 22px;
   text-align: center;
   position: relative;
   bottom: 10px;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .contact-main-wrapper {
@@ -41,7 +47,7 @@
   width: 500px;
   padding: 7px 12px;
   border-radius: 4px;
-  background: #f390a4;
+  background: #b274e2d5;
   outline: none;
   border: 1px solid transparent;
   margin-bottom: 20px;
@@ -51,7 +57,7 @@
 }
 
 .contact-right-wrapper input:focus {
-  background: #fafafa;
+  background: #f1eeee;
   color: #232323;
 }
 
@@ -67,16 +73,16 @@
   resize: none;
   padding: 7px 12px;
   border-radius: 4px;
-  background: #f390a4;
+  background: #b274e2d5;
   outline: none;
-  color: #fafafa;
+  color: #f1eeee;
   font-weight: 16px;
   border: 1px solid transparent;
   transition: 0.2s ease;
 }
 
 .contact-container textarea:focus {
-  background: #fafafa;
+  background: #f1eeee;
   color: #232323;
 }
 
@@ -96,7 +102,7 @@
 .contact-right-btn {
   height: 50px;
   width: 180px;
-  color: #fafafa;
+  color: #f1eeee;
   outline: none;
   cursor: pointer;
   font-size: 18px;
@@ -106,11 +112,12 @@
   justify-content: center;
   align-items: center;
   transition: 0.3s ease;
-  background: var(--crimson);
+  background: #7000C4;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 .contact-right-btn:hover {
-  background: #580818;
+  background: #4c0483;
   color: #ffffff;
 }
 

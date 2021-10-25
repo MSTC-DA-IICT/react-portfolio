@@ -1,27 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
+
 .projects{
     display: grid;
     grid-template-rows: 0.1fr 1fr;
-    background-color: crimson;
+    background-color: #111;
+    padding-top: 0px;
 }
 
 .projects h1{
     text-align: center;
     margin: 25px 0px;
-    font-size: 40px;
+    padding-top:10px;
+    font-size: 42px;
     color: white;
-    font-family: sans-serif;
+    font-family: 'Ibarra Real Nova', serif;
 }
 
 .projects-tiles{
     box-sizing: border-box;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     width: 100%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(280px, 360px));
     justify-content: space-around;
     align-items: center;
-    background: rgb(218, 78, 106);
+    background: #111;
 }
 
 .card{
@@ -51,7 +56,7 @@
     width: 100%;
     height: 100%;
     background: rgb(240,125,139);
-    background: linear-gradient(180deg, rgba(240,125,139,1) 0%, rgba(251,251,251,1) 100%);
+    background: linear-gradient(180deg, #7000C4 0%, rgba(251,251,251,1) 100%);
     /* background: linear-gradient(to bottom, rgba(0,176,155,0.5), rgba(150,201,61,1)); */
     z-index: 2;
     transition: 0.5s all;
