@@ -32,7 +32,7 @@ footer input[type="email"] {
 }
 footer input[type="submit"] {
 	outline: none;
-	border: 1px solid #fff;
+	border: none;
 	border-radius: 0 30px 30px 0;
 	padding: 10px;
 	color: #fff;
