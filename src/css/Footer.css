@@ -41,6 +41,8 @@ footer input[type="submit"] {
 	background: #7000c4;
 	cursor: pointer;
 	margin-left: 2px;
+	position: relative;
+	top: -2px;
 }
 
 footer input:hover[type="submit"] {
