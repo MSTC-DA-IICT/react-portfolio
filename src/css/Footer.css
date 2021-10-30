@@ -40,16 +40,13 @@ footer input[type="submit"] {
 	font-family: "Nunito Sans", sans-serif;
 	background: #7000c4;
 	cursor: pointer;
-	margin-left: 2px;
-	position: relative;
-	top: -2px;
+	border: 1px solid #7000c4;
 }
 
 footer input:hover[type="submit"] {
 	background: #4c0483;
 	color: #fff;
-	border: 1px solid transparent;
-	transition: all 0.3s ease-in-out;
+	border: 1px solid #fff;
 }
 footer .footer-list {
 	margin: 25px auto;
@@ -182,4 +179,10 @@ span a {
 	.text {
 		font-size: 10px;
 	}
+}
+
+.email-signup-form {
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
