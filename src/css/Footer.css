@@ -100,7 +100,7 @@ footer .social-media-container a:hover {
 
 footer .social-media-container i {
 	font-size: 40px;
-	vertical-align: middle;
+	/* vertical-align: middle; */
 	line-height: 40px;
 }
 footer .social-media-container a:hover i {
