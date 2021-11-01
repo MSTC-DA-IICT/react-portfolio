@@ -1,4 +1,4 @@
-import "../../css/Navbar.css";
+import "./Navbar.css";
 function NavbarLg() {
 	return (
 		<>
@@ -9,7 +9,7 @@ function NavbarLg() {
 						<i className="top-left"></i>
 						<span>
 							<img
-								src={process.env.PUBLIC_URL + "/images/logo1.svg"}
+								src="/images/logo1.png"
 								alt="logo"
 								className="logoimg"
 							/>

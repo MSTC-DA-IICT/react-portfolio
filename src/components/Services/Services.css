@@ -1,7 +1,7 @@
 /*  import google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -24,7 +24,6 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
-
 
 /* all similar content styling codes */
 section {
@@ -52,71 +51,49 @@ section .title {
   text-align: center;
   font-size: 40px;
   font-weight: 500;
-  margin-bottom: 60px;
+  margin-bottom: 20px;
   padding-bottom: 20px;
   font-family: "Ibarra Real Nova", serif;
 }
-section .title::before {
-  content: "";
-  position: absolute;
-  bottom: 0px;
-  left: 50%;
-  width: 180px;
-  height: 3px;
-  background: #111;
-  transform: translateX(-50%);
-}
-section .title::after {
-  position: absolute;
-  bottom: -8px;
-  left: 50%;
-  font-size: 20px;
-  color: #7000C4;
-  padding: 0 5px;
-  background: #fff;
-  transform: translateX(-50%);
-}
-.services,
-.teams {
+.services {
   color: #fff;
   background: #111;
+  background: rgba(220, 20, 60, 0.8);
 }
-.services .title::before,
-.teams .title::before {
-  background: #fff;
-}
-.services .title::after,
-.teams .title::after {
-  background: #111;
-  content: "what i provide";
-}
-.services .services-content .card {
+.services-content .card {
   width: calc(33% - 20px);
   background: #222;
+  background: #fff;
+  color: crimson;
   text-align: center;
   border-radius: 6px;
   padding: 50px 25px;
   cursor: pointer;
-  transition: all 0.3s ease;
+  transition: all 0.5s ease;
 }
-.services .services-content .card:hover {
-  background: #7000C4;
+.services-content .card .card-title {
+  font-size: 1.5rem;
 }
-.services .services-content .card .box {
-  transition: all 0.3s ease;
+.services-content .card:hover {
+  background: crimson;
+  color: #fff;
+  transform: translateY(-20px);
 }
-.services .services-content .card:hover .box {
-  transform: scale(1.05);
+.services-content .card .box {
+  transition: all 0.5s ease;
 }
-.services .services-content .card i {
+.services-content .card:hover .box {
+  transform: scale(1.1);
+}
+.services-content .card i {
   font-size: 50px;
-  color: #7000C4;
+  color: crimson;
   transition: color 0.3s ease;
 }
-.services .services-content .card:hover i {
+.services-content .card:hover i {
   color: #fff;
 }
-.services .services-content .card .text {
+.services-content .card .text {
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;

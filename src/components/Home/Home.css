@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&display=swap");
 
 .wrapper {
   min-height: 100vh;
@@ -17,8 +17,9 @@
 .home-content .home-heading h1 {
   font-family: var(--font);
   font-size: 4.5rem;
-  color: #7000C4;
-  font-family: 'Ibarra Real Nova', serif;
+  /* color: #7000c4; */
+  color: crimson;
+  font-family: "Ibarra Real Nova", serif;
 }
 .home-content .home-heading p {
   font-size: 1.5rem;
@@ -27,7 +28,7 @@
   padding: 2rem 0px 2rem 0px;
   margin-bottom: 1.5rem;
   font-weight: 500;
- font-family: 'Nunito Sans', sans-serif;
+  font-family: "Nunito Sans", sans-serif;
 }
 
 .home-social-links a:first-child {
@@ -36,12 +37,12 @@
 .home-social-links a {
   padding-left: 1rem;
   font-size: 2.5rem;
-  color: #7000C4;
+  color: rgba(220, 20, 60, 0.6);
   cursor: pointer;
+  transition: all 0.5s;
 }
-.home-social-links a:hover{
-  /* color: #111;; */
-  color: #932fe0bd;
+.home-social-links a:hover {
+  color: rgba(220, 20, 60, 0.9);
 }
 
 .wrapper .home-img-container {
@@ -60,11 +61,11 @@
   .wrapper {
     flex-direction: column;
   }
-  .home-content{
+  .home-content {
     padding: 4rem 1rem 2rem 0.8rem;
     text-align: center;
   }
-  .home-content{
+  .home-content {
     margin: 0;
   }
 }
